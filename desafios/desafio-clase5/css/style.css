@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+main{
+    height: 15vh;
+}
+ h1, section h3{
+    color: rgb(17, 17, 137);
+    background-color: grey;
+    width: 100%;
+    padding: 15px;
+}
+.section1, .section2{
+    height: 15vh;
+}
+.no-item-list{
+    list-style: none ;
+}
+
+.section3{
+    height: 25vh;
+}
+
+footer{
+    color: white;
+    background-color: rgb(28, 28, 111);
+    text-align: center;
+}
