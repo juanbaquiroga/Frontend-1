@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+header img{
+    width: 100px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+main{
+    height: 15vh;
+}
+ main h1, section h3{
+    color: rgb(17, 17, 137);
+    background-color: grey;
+    width: 100%;
+    padding: 15px;
+}
+.section1, .section2{
+    height: 20vh;
+}
+.no-item-list{
+    list-style: none ;
+}
+
+
+footer{
+    color: white;
+    background-color: rgb(28, 28, 111);
+    text-align: center;
+}
