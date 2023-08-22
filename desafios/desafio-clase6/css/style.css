@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
 *{
     box-sizing: border-box;
     padding: none;
     margin: none;
+    font-family: 'Raleway', sans-serif;
 }
 header{
     display: flex;
@@ -37,5 +39,14 @@ main{
 footer{
     color: white;
     background-color: rgb(28, 28, 111);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+i{
+    font-size: 30px;
+}
+footer a{
+    color: white;
 }
